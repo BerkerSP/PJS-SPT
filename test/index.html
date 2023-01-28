@@ -14,7 +14,15 @@
 <div id="player"></div>
 
 <script>
-   var player = new Playerjs({id:"player", file:"https://dtvott-abc.akamaized.net/dash_live_1099/manifest.mpd"});
+   var player = new Playerjs({id:"player", file:"https://dtvott-abc.akamaized.net/dash_live_1099/manifest.mpd"},
+   {
+   "org.w3.clearkey":{
+      "clearkeys":{
+         "k1":"OTMzZGU4ZTkxNTUzNWFlMThjMjU1OGE1YTc2MzE4Yzk"
+         "k2":"ZTFmYzFlZWQ0ZWFlODNlMGRjMWIzNzA1Y2I2MmNhNjQ"
+      }
+   }
+});
 </script>
 </body>
 </html>
