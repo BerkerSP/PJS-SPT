@@ -1,8 +1,9 @@
 {
    "org.w3.clearkey":{
       "clearkeys":{
-         "k1":"OTMzZGU4ZTkxNTUzNWFlMThjMjU1OGE1YTc2MzE4Yzk"
-         "k2":"ZTFmYzFlZWQ0ZWFlODNlMGRjMWIzNzA1Y2I2MmNhNjQ"
+         "kty":"oct"
+         "k":"Jj9tsS1vmqcvLMmw7y4msg"
+         "kid": "p+Ccb0evV+mZt4nrVNMlXQ"
       }
    }
 }
