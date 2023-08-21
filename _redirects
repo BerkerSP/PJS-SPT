@@ -5,4 +5,5 @@
 /video/test1-e.mp4 https://pixeldrain.com/u/qHZyCcvG?embed
 /video/master.m3u8 https://cinehax.com/m3u8.php?url=https://wolfstream.tv/embed-kp3v29ny054t.html
 /video/prueba.mp4 https://tg-drive.eu.org/756f103db3b3c970bc2227f3105790
+/video/:server/:id https://:server.tg-drive.eu.org/:id
 /video/:server/:slug1/:slug2/:slug3/:slug4/:slug5/:name https://sp.rmbl.ws/:server/:slug1/:slug2/:slug3/:slug4/:slug5/:name.aaa.mp4
