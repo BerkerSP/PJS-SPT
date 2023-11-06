@@ -1,74 +1,27 @@
-$anim: ease-in-out
-body,html
-	padding: 0
-	margin: 0
-	overflow: hidden
-.background
-	background: #2196F3
-	color: #fff
-	height: 100vh
-	width: 100vw
-	display: flex
-	flex-direction: column
-	align-items: center
-	justify-content: center
-#coffee, #text
-	flex: 1 1 auto
-#text
-	font-size: 4em
-	font-family: fantasy
-	text-align: center
-	visibility: hidden
-	opacity: 0
-	transform: translateY(100px)
-	animation: vew-tex 0.3s $anim forwards 9.2s 
-	p
-		padding: 0
-		margin: 0
-		&.h1
-			font-size: 1.8em
-		&.h2
-			font-size: 1.2em
-#Layer_1
-	height: 40vh
-	transform: translateY(25vh)
-	opacity: 0
-	animation: vew-set 10s $anim forwards
-	#teaBag
-		transform: translateX(-240px) translateY(80px)
-		animation: bag-set 5s $anim forwards
+* {
+  box-sizing: border-box;
+}
 
-		#bar
-			animation: diping 2s $anim 4.5s infinite
-	#smoke
-		opacity: 0
-		transform: translateY(10px)
-		animation: smoking 2s $anim 8.2s infinite
-@keyframes vew-set
-	5%,100%
-		opacity: 1
-	89%
-		transform: translateY(25vh)
-	95%, 100%
-		transform: translateY(0)
-@keyframes diping
-	50%
-		transform: translateY(50px)
-@keyframes smoking
-	20%
-		opacity: 1
-	80%
-		opacity: 0
-		transform: translateY(-40px)
-@keyframes bag-set
-	33%
-		transform: translateX(-180px) translateY(-150px)
-	66%
-		transform: translateX(-20px) translateY(-150px)
-	100%
-		transform: translateX(0) translateY(0px)
-@keyframes vew-tex
-	100%
-		visibility: visible
-		opacity: 1
-		transform: translateY(0px)
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.bg-image {
+  background-image: url("/img/waiting.jpg");
+  object-fit: contain;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
