@@ -9,7 +9,7 @@ body {
 }
 
 .bg-image {
-  background-image: url("/img/waiting.jpg");
+  background-image: url("/img/bg.jpg");
   object-fit: contain;
   width: 100vw;
   height: 100vh;
